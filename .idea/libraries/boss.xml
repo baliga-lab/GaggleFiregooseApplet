@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="boss">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/boss.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/firefoxClassLoader.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gaggle-connector.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plugin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/boss.jar!/" />
+    </SOURCES>
+  </library>
+</component>

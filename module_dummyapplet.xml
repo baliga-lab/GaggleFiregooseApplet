@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_dummyapplet" default="compile.module.dummyapplet">
+  <dirname property="module.dummyapplet.basedir" file="${ant.file.module_dummyapplet}"/>
+  
+  <property name="module.jdk.home.dummyapplet" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.dummyapplet" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.dummyapplet" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.dummyapplet" value="${compiler.args}"/>
+  
+  <property name="dummyapplet.output.dir" value="${module.dummyapplet.basedir}/out/production/DummyApplet"/>
+  <property name="dummyapplet.testoutput.dir" value="${module.dummyapplet.basedir}/out/test/DummyApplet"/>
+  
+  <path id="dummyapplet.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="dummyapplet.module.production.classpath">
+    <path refid="${module.jdk.classpath.dummyapplet}"/>
+  </path>
+  
+  <path id="dummyapplet.runtime.production.module.classpath">
+    <pathelement location="${dummyapplet.output.dir}"/>
+  </path>
+  
+  <path id="dummyapplet.module.classpath">
+    <path refid="${module.jdk.classpath.dummyapplet}"/>
+    <pathelement location="${dummyapplet.output.dir}"/>
+  </path>
+  
+  <path id="dummyapplet.runtime.module.classpath">
+    <pathelement location="${dummyapplet.testoutput.dir}"/>
+    <pathelement location="${dummyapplet.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.dummyapplet">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.dummyapplet">
+    <patternset refid="excluded.from.module.dummyapplet"/>
+  </patternset>
+  
+  <path id="dummyapplet.module.sourcepath">
+    <dirset dir="${module.dummyapplet.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.dummyapplet" depends="compile.module.dummyapplet.production,compile.module.dummyapplet.tests" description="Compile module DummyApplet"/>
+  
+  <target name="compile.module.dummyapplet.production" depends="register.custom.compilers" description="Compile module DummyApplet; production classes">
+    <mkdir dir="${dummyapplet.output.dir}"/>
+    <javac2 destdir="${dummyapplet.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.dummyapplet}/javac">
+      <compilerarg line="${compiler.args.dummyapplet}"/>
+      <bootclasspath refid="dummyapplet.module.bootclasspath"/>
+      <classpath refid="dummyapplet.module.production.classpath"/>
+      <src refid="dummyapplet.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.dummyapplet"/>
+    </javac2>
+    
+    <copy todir="${dummyapplet.output.dir}">
+      <fileset dir="${module.dummyapplet.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.dummyapplet.tests" depends="register.custom.compilers,compile.module.dummyapplet.production" description="compile module DummyApplet; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.dummyapplet" description="cleanup module">
+    <delete dir="${dummyapplet.output.dir}"/>
+    <delete dir="${dummyapplet.testoutput.dir}"/>
+  </target>
+</project>
