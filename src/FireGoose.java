@@ -218,12 +218,13 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
         return results.toArray(new String[0]);
     }
 
-    public void broadcastNameList(String targetGoose, String name, String species, String[] names) {
+    public void broadcastNameList(String targetGoose, String name, String species, String names, String delimit) {
         try {
             Namelist namelist = new Namelist();
             namelist.setName(name);
             namelist.setSpecies(species);
-            namelist.setNames(names);
+            String[] splittedstrings = names.split(delimit);
+            namelist.setNames(splittedstrings);
             boss.broadcastNamelist(gooseName, targetGoose, namelist);
         }
         catch (RemoteException e) {
@@ -462,29 +463,25 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
         }
     }
 
-    /*public void saveStateInfo(String webhandler, String[] data)
+    public void saveStateInfo(String webhandler, String name, String species, String[] names)
     {
-        if (webhandler != null && data != null && webhandler.length() > 0)
+        if (webhandler != null && names != null && webhandler.length() > 0)
         {
             if (stateFileStream == null)
                 initializeStateFile(this.stateFileName);
 
             if (stateFileStream != null) {
                 try {
-                    System.out.println("Write web handler info " + webhandler);
-                    String output = "HANDLER;;" + webhandler + ";;";
-                    for (int i = 0; i < data.length; i++) {
-                        output += data[i] + ";;";
-                    }
-                    System.out.println("Write output " + output);
-                    stateFileStream.write(output.getBytes());
+                    System.out.println("Write Namelist to " + webhandler);
+                    Namelist nl = new Namelist(name, species, names);
+                    saveStateInfo(webhandler, nl);
                 }
                 catch (Exception e1) {
                     System.err.println("Failed to write state info " + e1.getMessage());
                 }
             }
         }
-    } */
+    }
 
     public void saveStateInfo(String webhandler, Object c)
     {
@@ -497,7 +494,7 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
                 try {
                     GaggleData data = (GaggleData)c;
                     System.out.println("Write gaggle data " + data + " web handler info " + webhandler);
-                    String filename = this.stateFilePrefix + "_" + UUID.randomUUID() + ".dat";
+                    String filename = this.stateFilePrefix + "_" + UUID.randomUUID() + "_Firegoose.dat";
                     saveGaggleData(data, filename);
                     String output = "HANDLER;;" + webhandler + ";;" + data.getClass() + ";;" + filename + "\n";
                     System.out.println("Write output " + output);
