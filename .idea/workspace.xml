@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fe87e0-2ef1-45af-81c4-b17df805629f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireGoose.java" afterPath="$PROJECT_DIR$/src/FireGoose.java" />
     </list>
     <ignored path="DummyApplet.iws" />
@@ -74,15 +72,26 @@
       <file leaf-file-name="FireGoose.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FireGoose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="236" column="38" selection-start="7522" selection-end="7522" vertical-scroll-proportion="0.9127517">
+            <state line="938" column="56" selection-start="32466" selection-end="32466" vertical-scroll-proportion="0.83355707">
               <folding>
-                <element signature="e#0#32195#0" expanded="true" />
+                <element signature="e#0#35612#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#6643#6651#0" expanded="true" />
-                <element signature="e#25507#25523#0" expanded="true" />
-                <element signature="e#25825#25841#0" expanded="true" />
-                <element signature="e#26144#26160#0" expanded="true" />
-                <element signature="e#27140#27148#0" expanded="true" />
+                <element signature="e#6675#6683#0" expanded="true" />
+                <element signature="e#25539#25555#0" expanded="true" />
+                <element signature="e#25857#25873#0" expanded="true" />
+                <element signature="e#26176#26192#0" expanded="true" />
+                <element signature="e#27172#27180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_38/src.zip!/java/lang/reflect/Array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="291" column="30" selection-start="12651" selection-end="12651" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#20779#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -379,12 +388,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16461785" sideWeight="0.8248032" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16461785" sideWeight="0.8248032" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -491,17 +500,26 @@
         <state line="46" column="62" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_38/src.zip!/java/lang/reflect/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="291" column="30" selection-start="12651" selection-end="12651" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#20779#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FireGoose.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="38" selection-start="7522" selection-end="7522" vertical-scroll-proportion="0.9127517">
+        <state line="938" column="56" selection-start="32466" selection-end="32466" vertical-scroll-proportion="0.83355707">
           <folding>
-            <element signature="e#0#32195#0" expanded="true" />
+            <element signature="e#0#35612#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#6643#6651#0" expanded="true" />
-            <element signature="e#25507#25523#0" expanded="true" />
-            <element signature="e#25825#25841#0" expanded="true" />
-            <element signature="e#26144#26160#0" expanded="true" />
-            <element signature="e#27140#27148#0" expanded="true" />
+            <element signature="e#6675#6683#0" expanded="true" />
+            <element signature="e#25539#25555#0" expanded="true" />
+            <element signature="e#25857#25873#0" expanded="true" />
+            <element signature="e#26176#26192#0" expanded="true" />
+            <element signature="e#27172#27180#0" expanded="true" />
           </folding>
         </state>
       </provider>

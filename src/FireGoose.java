@@ -8,6 +8,7 @@
  */
 
 import java.io.*;
+import java.lang.reflect.Array;
 import java.rmi.RemoteException;
 import java.util.*;
 
@@ -909,6 +910,116 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
 
 
     // end Goose methods -----------------------------------------------------
+
+
+    // Proxy calls to bridge javascript and Java
+    public Object getJavaArray(String className, int size)
+    {
+        try
+        {
+            System.out.println("Generating array " + className + " of size " + size);
+            Class c = Class.forName(className);
+            return java.lang.reflect.Array.newInstance(c, size);
+        }
+        catch (Exception e)
+        {
+            System.out.println("Failed to generate array " + e.getMessage());
+        }
+        return null;
+    }
+
+    public Object get2DJavaArrayDouble(int rows, int columns)
+    {
+        System.out.println("Create double array " + rows + " " + columns);
+        return Array.newInstance(double.class, rows, columns);
+    }
+
+    public void set2DJavaArrayDoubleValue(Object matrix, int row, int column, double value)
+    {
+        System.out.println("Set array element for " + row + " " + column + " value " + value);
+        Object rowobj = Array.get(matrix, row);
+        Array.setDouble(rowobj, column, value);
+    }
+
+    public Object get2DJavaArray(String className, int rows, int columns)
+    {
+        try
+        {
+            System.out.println("Generating 2D array " + className + " of size[" + rows + ", " + columns + "]");
+            int[] darray = new int[2];
+            darray[0] = rows;
+            System.out.println("Generating 2D array....");
+            Class c = Class.forName(className);
+            Object array = java.lang.reflect.Array.newInstance(c, darray);
+            for (int i = 0; i < rows; i++)
+            {
+                Object newrow = java.lang.reflect.Array.newInstance(c, columns);
+                java.lang.reflect.Array.set(array, i, newrow);
+            }
+            return array;
+        }
+        catch (Exception e)
+        {
+            System.out.println("Failed to generate array " + e.getMessage());
+        }
+        return null;
+    }
+
+
+    public void setArrayElement(Object array, int index, Object element)
+    {
+        if (array != null && index >= 0 && element != null)
+        {
+            System.out.println("Setting element " + index + " " + element);
+            java.lang.reflect.Array.set(array, index, element);
+        }
+    }
+
+
+    public Object getObject(String className)
+    {
+        try
+        {
+            System.out.println("Generate instance for " + className);
+            Object c = Class.forName(className).newInstance();
+            return c;
+        }
+        catch (Exception e)
+        {
+            System.out.println("Failed to instantiate object " + e.getMessage());
+        }
+        return null;
+    }
+
+    public Object getDoubleObjectFromInt(int value)
+    {
+        try
+        {
+            Object d =
+               Class.forName("java.lang.Double").getConstructor(double.class).newInstance((double)value);
+            return d;
+        }
+        catch (Exception e)
+        {
+            System.out.println("Failed to instantiate Double " + e.getMessage());
+        }
+        return null;
+    }
+
+    public Object getDoubleObjectFromDouble(double value)
+    {
+        try
+        {
+            Object d =
+                    Class.forName("java.lang.Double").getConstructor(double.class).newInstance(value);
+            return d;
+        }
+        catch (Exception e)
+        {
+            System.out.println("Failed to instantiate Double " + e.getMessage());
+        }
+        return null;
+    }
 
     /**
      * A signal to tell when a new broadcast from the Gaggle has arrived. Dunno
