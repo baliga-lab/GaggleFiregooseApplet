@@ -643,6 +643,10 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
 
     }
 
+    public GaggleData ProcessTextFile(String url)
+    {
+        return this.workflowManager.ProcessTextFile(url);
+    }
 
     // Submit a NameList to the workflow manager
     // names is a delimited string of all the names
