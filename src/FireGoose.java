@@ -915,6 +915,10 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
 
     // end Goose methods -----------------------------------------------------
 
+    public Interaction createInteraction(String source, String target, String type)
+    {
+        return new Interaction(source, target, type);
+    }
 
     // Proxy calls to bridge javascript and Java
     public Object getJavaArray(String className, int size)
