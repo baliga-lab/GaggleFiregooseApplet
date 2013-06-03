@@ -413,10 +413,10 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
     }
 
 
-    private FileOutputStream initializeStateFile(String filename)
+    private FileOutputStream initializeStateFile(String filename, boolean fullpath)
     {
         FileOutputStream result = null;
-        String fullpathname = saveStateTempDir + File.separator + filename;
+        String fullpathname = (fullpath) ? filename : (saveStateTempDir + File.separator + filename);
         System.out.println("Initialize state file: " + fullpathname);
         try {
             result = new FileOutputStream(fullpathname);
@@ -428,11 +428,24 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
         return result;
     }
 
-    private void saveGaggleData(GaggleData data, String filename) throws IOException
+    public String saveGaggleData(GaggleData data, String filename) throws IOException
     {
         if (data != null) {
+            boolean fullpath = false;
+            if (filename == null || filename.length() == 0)
+            {
+                // generate a temp file
+                String tempDir = System.getProperty("java.io.tmpdir");
+                tempDir += (File.separator + "Gaggle");
+                System.out.println("Temp dir: " + tempDir);
+                File tempdir = new File(tempDir);
+                if (!tempdir.exists())
+                     tempdir.mkdirs();
+                filename = tempDir + File.separator + UUID.randomUUID().toString() + ".gdat";
+                fullpath = true;
+            }
             System.out.println("SaveGaggleData: " + filename + " data: " + data);
-            FileOutputStream outputStream = initializeStateFile(filename);
+            FileOutputStream outputStream = initializeStateFile(filename, fullpath);
             if (outputStream != null)
             {
                 ObjectOutputStream out = new ObjectOutputStream(outputStream);
@@ -440,6 +453,7 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
                 out.close();
             }
         }
+        return filename;
     }
 
 
@@ -448,7 +462,7 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
         if (info != null && info.length() > 0)
         {
             if (stateFileStream == null) {
-                this.stateFileStream = initializeStateFile(this.stateFileName);
+                this.stateFileStream = initializeStateFile(this.stateFileName, false);
             }
 
             if (stateFileStream != null) {
@@ -469,7 +483,7 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
         if (webhandler != null && names != null && webhandler.length() > 0)
         {
             if (stateFileStream == null)
-                initializeStateFile(this.stateFileName);
+                initializeStateFile(this.stateFileName, false);
 
             if (stateFileStream != null) {
                 try {
@@ -489,7 +503,7 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
         if (webhandler != null && c != null)
         {
             if (stateFileStream == null)
-                initializeStateFile(this.stateFileName);
+                initializeStateFile(this.stateFileName, false);
 
             if (stateFileStream != null) {
                 try {
@@ -918,6 +932,16 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
     public Interaction createInteraction(String source, String target, String type)
     {
         return new Interaction(source, target, type);
+    }
+
+    public Cluster createCluster(String name, String species, String[] rowNames, String[] columnNames)
+    {
+        return new Cluster(name, species, rowNames, columnNames);
+    }
+
+    public Namelist createNameList(String name, String species, String[] names)
+    {
+        return new Namelist(name, species, names);
     }
 
     // Proxy calls to bridge javascript and Java
