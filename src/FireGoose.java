@@ -436,6 +436,9 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
             {
                 // generate a temp file
                 String tempDir = System.getProperty("java.io.tmpdir");
+                // For MAC, we need to adjust the temp dir to the right place
+                if (tempDir.startsWith("/var/folders"))
+                    tempDir = "/tmp";
                 tempDir += (File.separator + "Gaggle");
                 System.out.println("Temp dir: " + tempDir);
                 File tempdir = new File(tempDir);
