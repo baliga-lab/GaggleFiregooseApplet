@@ -7,18 +7,24 @@
  *   http://www.gnu.org/copyleft/lesser.html
  */
 
+import net.sf.json.JSONObject;
+import netscape.javascript.JSObject;
+import org.systemsbiology.gaggle.core.Boss;
+import org.systemsbiology.gaggle.core.Boss3;
+import org.systemsbiology.gaggle.core.Goose3;
+import org.systemsbiology.gaggle.core.GooseWorkflowManager;
+import org.systemsbiology.gaggle.core.datatypes.*;
+import org.systemsbiology.gaggle.geese.common.GaggleConnectionListener;
+import org.systemsbiology.gaggle.geese.common.GooseShutdownHook;
+import org.systemsbiology.gaggle.geese.common.RmiGaggleConnector;
+
 import java.io.*;
 import java.lang.reflect.Array;
 import java.rmi.RemoteException;
-import java.util.*;
-
-import net.sf.json.JSONObject;
-import netscape.javascript.JSObject;
-import org.systemsbiology.gaggle.core.*;
-import org.systemsbiology.gaggle.core.datatypes.*;
-import org.systemsbiology.gaggle.geese.common.GaggleConnectionListener;
-import org.systemsbiology.gaggle.geese.common.RmiGaggleConnector;
-import org.systemsbiology.gaggle.geese.common.GooseShutdownHook;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.UUID;
 
 
 /**
@@ -221,10 +227,12 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
 
     public void broadcastNameList(String targetGoose, String name, String species, String names, String delimit) {
         try {
+            System.out.println("Broadcasting namelist " + name + " names " + names + " to " + targetGoose);
             Namelist namelist = new Namelist();
             namelist.setName(name);
             namelist.setSpecies(species);
             String[] splittedstrings = names.split(delimit);
+            System.out.println("Names length " + splittedstrings.length);
             namelist.setNames(splittedstrings);
             boss.broadcastNamelist(gooseName, targetGoose, namelist);
         }
