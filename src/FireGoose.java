@@ -415,7 +415,7 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
     {
         this.saveStateFlag = true;
         this.stateFilePrefix = filePrefix;
-        this.stateFileName = filePrefix + "_" + UUID.randomUUID().toString() + "_Firegoose.gst";
+        this.stateFileName = "Firegoose_" + filePrefix + "_" + UUID.randomUUID().toString() + ".gst";
         this.saveStateTempDir = directory;
         System.out.println("Received savestate request for " + directory + " " + filePrefix);
     }
