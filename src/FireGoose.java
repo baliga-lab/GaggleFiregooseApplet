@@ -520,7 +520,7 @@ public class FireGoose implements Goose3, GaggleConnectionListener {
                 try {
                     GaggleData data = (GaggleData)c;
                     System.out.println("Write gaggle data " + data + " web handler info " + webhandler);
-                    String filename = this.stateFilePrefix + "_" + UUID.randomUUID() + "_Firegoose.dat";
+                    String filename = "Firegoose_" + this.stateFilePrefix + "_" + UUID.randomUUID() + ".dat";
                     saveGaggleData(data, filename);
                     String output = "HANDLER;;" + webhandler + ";;" + data.getClass() + ";;" + filename + "\n";
                     System.out.println("Write output " + output);

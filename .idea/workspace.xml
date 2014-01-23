@@ -3,28 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="00fe87e0-2ef1-45af-81c4-b17df805629f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FireGoose.java" afterPath="$PROJECT_DIR$/src/FireGoose.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DummyApplet.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1387300633188" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Geese/rShell/RShellGoose.java" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386105695476" ignored="false" />
-    <file path="/RShellGoose.java" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386105520762" ignored="false" />
-    <file path="$PROJECT_DIR$/../GaggleProxyApplet/src/org/systemsbiology/gaggle/geese/proxygoose/HttpFileUploadHelper.java" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386122026920" ignored="false" />
-    <file path="/HttpFileUploadHelper.java" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386122023169" ignored="false" />
-    <file path="/urls.py" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386871330254" ignored="false" />
-    <file path="/views.py" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386872716290" ignored="false" />
-    <file path="/a.dummy" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386885048891" ignored="false" />
-    <file path="/settings.py" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386867955608" ignored="false" />
-    <file path="/home.html" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386825563218" ignored="false" />
-    <file path="/base2.html" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386790033817" ignored="false" />
-    <file path="/main.js" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386871421942" ignored="false" />
-    <file path="/models.py" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386868378503" ignored="false" />
-    <file path="/celery.py" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386824545976" ignored="false" />
-    <file path="$PROJECT_DIR$/../GaggleBossTest/src/GaggleBossTester.java" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1387218686926" ignored="false" />
-    <file path="/GaggleBossTester.java" changelist="00fe87e0-2ef1-45af-81c4-b17df805629f" time="1386974280171" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +67,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../paperworm/web_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="89" selection-start="4514" selection-end="4514" vertical-scroll-proportion="0.35064936">
+            <state line="125" column="30" selection-start="4933" selection-end="4933" vertical-scroll-proportion="0.0" vertical-offset="3375" max-vertical-offset="4023">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FireGoose.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FireGoose.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="655" column="40" selection-start="22551" selection-end="22559" vertical-scroll-proportion="0.33256352" vertical-offset="16479" max-vertical-offset="28566">
+              <folding>
+                <element signature="e#6909#6917#0" expanded="true" />
+                <element signature="e#26948#26964#0" expanded="true" />
+                <element signature="e#27266#27282#0" expanded="true" />
+                <element signature="e#27585#27601#0" expanded="true" />
+                <element signature="e#28581#28589#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +94,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="56" selection-start="3221" selection-end="3221" vertical-scroll-proportion="0.0">
+            <state line="93" column="56" selection-start="3221" selection-end="3221" vertical-scroll-proportion="0.0" vertical-offset="2511" max-vertical-offset="4185">
               <folding />
             </state>
           </provider>
@@ -106,7 +103,7 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="24" selection-start="866" selection-end="874" vertical-scroll-proportion="0.0">
+            <state line="26" column="24" selection-start="866" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="999">
               <folding />
             </state>
           </provider>
@@ -115,7 +112,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="66" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
+            <state line="20" column="66" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="972">
               <folding />
             </state>
           </provider>
@@ -124,16 +121,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../paperworm/web_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="105" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../paperworm/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="105" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="783">
               <folding />
             </state>
           </provider>
@@ -142,7 +130,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="66" selection-start="5868" selection-end="5868" vertical-scroll-proportion="0.0">
+            <state line="173" column="66" selection-start="5868" selection-end="5868" vertical-scroll-proportion="0.0" vertical-offset="4671" max-vertical-offset="4833">
               <folding />
             </state>
           </provider>
@@ -151,7 +139,7 @@
       <file leaf-file-name="tasks.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../paperworm/web_app/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="351">
               <folding />
             </state>
           </provider>
@@ -160,7 +148,7 @@
       <file leaf-file-name="celery.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/celery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+            <state line="14" column="30" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -169,7 +157,7 @@
       <file leaf-file-name="base2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/base2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="60" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+            <state line="12" column="60" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1188">
               <folding />
             </state>
           </provider>
@@ -196,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/DummyApplet.java" />
         <option value="$PROJECT_DIR$/src/Firegoose.java" />
         <option value="$PROJECT_DIR$/src/GaggleFiregooseApplet.java" />
-        <option value="$PROJECT_DIR$/src/FireGoose.java" />
         <option value="$PROJECT_DIR$/../paperworm/paperworm/views.py" />
         <option value="$PROJECT_DIR$/../paperworm/web_app/templates/home.html" />
         <option value="$PROJECT_DIR$/../paperworm/web_app/templates/base2.html" />
@@ -208,6 +195,7 @@
         <option value="$PROJECT_DIR$/../paperworm/paperworm/urls.py" />
         <option value="$PROJECT_DIR$/../paperworm/web_app/views.py" />
         <option value="$PROJECT_DIR$/../paperworm/web_app/static/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/src/FireGoose.java" />
       </list>
     </option>
   </component>
@@ -249,6 +237,20 @@
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GaggleFiregooseApplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DummyApplet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -324,10 +326,6 @@
               <option name="myItemId" value="org" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaggle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -345,106 +343,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="boss.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaggle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaggleFiregooseApplet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DummyApplet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boss.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaggle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datatypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaggleFiregooseApplet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DummyApplet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boss.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaggleFiregooseApplet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DummyApplet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boss.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GaggleFiregooseApplet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DummyApplet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -468,6 +366,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="dummyapplet" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -475,7 +374,7 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
@@ -487,6 +386,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -514,19 +426,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -597,12 +496,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16612554" sideWeight="0.76463836" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -612,72 +513,30 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17609392" sideWeight="0.7952286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17604166" sideWeight="0.79571104" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20477137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20428894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -701,103 +560,374 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/boss.jar!/org/systemsbiology/gaggle/core/datatypes/DataMatrix.class">
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="42" selection-start="2571" selection-end="2583" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_38/src.zip!/java/lang/reflect/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="291" column="30" selection-start="12651" selection-end="12651" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FireGoose.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="60" selection-start="3795" selection-end="3840" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GaggleFiregooseApplet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="61" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../paperworm/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/celery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+        <state line="2" column="105" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="783">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="66" selection-start="5868" selection-end="5868" vertical-scroll-proportion="0.0">
+        <state line="173" column="66" selection-start="5868" selection-end="5868" vertical-scroll-proportion="0.0" vertical-offset="4671" max-vertical-offset="4833">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/models.py">
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="105" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="351">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/base2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="60" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="66" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="866" selection-end="874" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="56" selection-start="3221" selection-end="3221" vertical-scroll-proportion="0.0">
+        <state line="12" column="60" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1188">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../paperworm/web_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="89" selection-start="4514" selection-end="4514" vertical-scroll-proportion="0.35064936">
+        <state line="125" column="30" selection-start="4933" selection-end="4933" vertical-scroll-proportion="0.0" vertical-offset="3375" max-vertical-offset="4023">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireGoose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="24" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="28566">
+          <folding>
+            <element signature="e#6909#6917#0" expanded="true" />
+            <element signature="e#26948#26964#0" expanded="true" />
+            <element signature="e#27266#27282#0" expanded="true" />
+            <element signature="e#27585#27601#0" expanded="true" />
+            <element signature="e#28581#28589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="56" selection-start="3221" selection-end="3221" vertical-scroll-proportion="0.0" vertical-offset="2511" max-vertical-offset="4185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="24" selection-start="866" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="999">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="66" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="105" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="783">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="66" selection-start="5868" selection-end="5868" vertical-scroll-proportion="0.0" vertical-offset="4671" max-vertical-offset="4833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="351">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/base2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="60" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="30" selection-start="4933" selection-end="4933" vertical-scroll-proportion="0.0" vertical-offset="3375" max-vertical-offset="4023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireGoose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="24" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="28566">
+          <folding>
+            <element signature="e#6909#6917#0" expanded="true" />
+            <element signature="e#26948#26964#0" expanded="true" />
+            <element signature="e#27266#27282#0" expanded="true" />
+            <element signature="e#27585#27601#0" expanded="true" />
+            <element signature="e#28581#28589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="56" selection-start="3221" selection-end="3221" vertical-scroll-proportion="0.0" vertical-offset="2511" max-vertical-offset="4185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="24" selection-start="866" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="999">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="66" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="105" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="783">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="66" selection-start="5868" selection-end="5868" vertical-scroll-proportion="0.0" vertical-offset="4671" max-vertical-offset="4833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="351">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/base2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="60" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="30" selection-start="4933" selection-end="4933" vertical-scroll-proportion="0.0" vertical-offset="3375" max-vertical-offset="4023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireGoose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="881" column="66" selection-start="31349" selection-end="31349" vertical-scroll-proportion="0.0" vertical-offset="23787" max-vertical-offset="28566">
+          <folding>
+            <element signature="e#6909#6917#0" expanded="true" />
+            <element signature="e#26948#26964#0" expanded="true" />
+            <element signature="e#27266#27282#0" expanded="true" />
+            <element signature="e#27585#27601#0" expanded="true" />
+            <element signature="e#28581#28589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="56" selection-start="3221" selection-end="3221" vertical-scroll-proportion="0.0" vertical-offset="2511" max-vertical-offset="4185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="24" selection-start="866" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="999">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="66" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="105" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="783">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="66" selection-start="5868" selection-end="5868" vertical-scroll-proportion="0.0" vertical-offset="4671" max-vertical-offset="4833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="351">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/base2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="60" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/boss.jar!/org/systemsbiology/gaggle/core/datatypes/DataMatrix.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="42" selection-start="2571" selection-end="2583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_38/src.zip!/java/lang/reflect/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="291" column="30" selection-start="12651" selection-end="12651" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GaggleFiregooseApplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="61" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="66" selection-start="5868" selection-end="5868" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="105" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/base2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="60" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/paperworm/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="66" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="24" selection-start="866" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/static/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="56" selection-start="3221" selection-end="3221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../paperworm/web_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="30" selection-start="4933" selection-end="4933" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FireGoose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="655" column="40" selection-start="22551" selection-end="22559" vertical-scroll-proportion="0.33256352" vertical-offset="16479" max-vertical-offset="28566">
+          <folding>
+            <element signature="e#6909#6917#0" expanded="true" />
+            <element signature="e#26948#26964#0" expanded="true" />
+            <element signature="e#27266#27282#0" expanded="true" />
+            <element signature="e#27585#27601#0" expanded="true" />
+            <element signature="e#28581#28589#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
